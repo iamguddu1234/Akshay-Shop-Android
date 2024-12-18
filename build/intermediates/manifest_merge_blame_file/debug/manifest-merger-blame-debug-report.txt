@@ -1,0 +1,451 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.akshayshopapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:7:5-76
+13-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+14-->[com.google.android.recaptcha:recaptcha:18.5.1] /Users/akshaybhasme/.gradle/caches/transforms-3/4570a723a131f999fcd52ba89d130ba5/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:5-98
+14-->[com.google.android.recaptcha:recaptcha:18.5.1] /Users/akshaybhasme/.gradle/caches/transforms-3/4570a723a131f999fcd52ba89d130ba5/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:22-95
+15
+16    <permission
+16-->[androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.akshayshopapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.akshayshopapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:9:5-88:19
+23        android:allowBackup="true"
+23-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:11:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:12:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:14:9-41
+31        android:networkSecurityConfig="@xml/network_config"
+31-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:15:9-60
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:16:9-54
+33        android:supportsRtl="true"
+33-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:17:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.AkshayShopAPP" >
+35-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:18:9-51
+36        <activity
+36-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:20:9-22:40
+37            android:name="com.example.akshayshopapp.AdminPanel.Activity.UserDetailsView"
+37-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:21:13-64
+38            android:exported="false" />
+38-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:22:13-37
+39        <activity
+39-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:23:9-25:40
+40            android:name="com.example.akshayshopapp.AdminPanel.Activity.DeleteUser"
+40-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:24:13-59
+41            android:exported="false" />
+41-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:25:13-37
+42        <activity
+42-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:26:9-28:40
+43            android:name="com.example.akshayshopapp.AdminPanel.Activity.Update_User"
+43-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:27:13-60
+44            android:exported="false" />
+44-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:28:13-37
+45        <activity
+45-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:29:9-31:40
+46            android:name="com.example.akshayshopapp.AdminPanel.Activity.Add_user"
+46-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:30:13-57
+47            android:exported="false" />
+47-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:31:13-37
+48        <activity
+48-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:32:9-34:40
+49            android:name="com.example.akshayshopapp.AdminPanel.Activity.All_User_details"
+49-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:33:13-65
+50            android:exported="false" />
+50-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:34:13-37
+51        <activity
+51-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:35:9-37:40
+52            android:name="com.example.akshayshopapp.AdminPanel.Activity.Delete_product"
+52-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:36:13-63
+53            android:exported="false" />
+53-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:37:13-37
+54        <activity
+54-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:38:9-40:40
+55            android:name="com.example.akshayshopapp.AdminPanel.Activity.Update_product"
+55-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:39:13-63
+56            android:exported="false" />
+56-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:40:13-37
+57        <activity
+57-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:41:9-43:40
+58            android:name="com.example.akshayshopapp.AdminPanel.Activity.Add_product"
+58-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:42:13-60
+59            android:exported="false" />
+59-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:43:13-37
+60        <activity
+60-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:45:9-47:40
+61            android:name="com.example.akshayshopapp.Activity.MyAccountDetailsScreen"
+61-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:46:13-60
+62            android:exported="false" />
+62-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:47:13-37
+63        <activity
+63-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:48:9-50:40
+64            android:name="com.example.akshayshopapp.Activity.NoInternetScreen"
+64-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:49:13-54
+65            android:exported="false" />
+65-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:50:13-37
+66        <activity
+66-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:51:9-53:40
+67            android:name="com.example.akshayshopapp.Activity.OtpScreen"
+67-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:52:13-47
+68            android:exported="false" />
+68-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:53:13-37
+69        <activity
+69-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:54:9-56:40
+70            android:name="com.example.akshayshopapp.Activity.AddToCartScreen"
+70-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:55:13-53
+71            android:exported="false" />
+71-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:56:13-37
+72        <activity
+72-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:57:9-59:40
+73            android:name="com.example.akshayshopapp.Activity.WishLIstScreen"
+73-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:58:13-52
+74            android:exported="false" />
+74-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:59:13-37
+75        <activity
+75-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:60:9-62:40
+76            android:name="com.example.akshayshopapp.Activity.CategoryScreen"
+76-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:61:13-52
+77            android:exported="false" />
+77-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:62:13-37
+78        <activity
+78-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:63:9-65:40
+79            android:name="com.example.akshayshopapp.Activity.ProductDetailsScreen"
+79-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:64:13-58
+80            android:exported="false" />
+80-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:65:13-37
+81        <activity
+81-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:66:9-68:40
+82            android:name="com.example.akshayshopapp.Activity.RegisterScreen"
+82-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:67:13-52
+83            android:exported="false" />
+83-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:68:13-37
+84        <activity
+84-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:69:9-71:40
+85            android:name="com.example.akshayshopapp.Activity.SplashScreen"
+85-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:70:13-50
+86            android:exported="false" />
+86-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:71:13-37
+87        <activity
+87-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:72:9-74:40
+88            android:name="com.example.akshayshopapp.AdminPanel.AdminPanel_Home"
+88-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:73:13-55
+89            android:exported="false" />
+89-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:74:13-37
+90        <activity
+90-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:76:9-78:40
+91            android:name="com.example.akshayshopapp.MainActivity"
+91-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:77:13-41
+92            android:exported="false" />
+92-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:78:13-37
+93        <activity
+93-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:79:9-87:20
+94            android:name="com.example.akshayshopapp.Activity.Login_Screen"
+94-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:80:13-50
+95            android:exported="true" >
+95-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:81:13-36
+96            <intent-filter>
+96-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:82:13-86:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:83:17-69
+97-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:83:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:85:17-77
+99-->/Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:85:27-74
+100            </intent-filter>
+101        </activity>
+102        <activity
+102-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
+103            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+103-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
+104            android:excludeFromRecents="true"
+104-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:31:13-46
+105            android:exported="true"
+105-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:32:13-36
+106            android:launchMode="singleTask"
+106-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:33:13-44
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+107-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:34:13-72
+108            <intent-filter>
+108-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
+109                <action android:name="android.intent.action.VIEW" />
+109-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+109-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+111-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+112                <category android:name="android.intent.category.BROWSABLE" />
+112-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+112-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+113
+114                <data
+114-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+115                    android:host="firebase.auth"
+115-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+116                    android:path="/"
+116-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+117                    android:scheme="genericidp" />
+117-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+118            </intent-filter>
+119        </activity>
+120        <activity
+120-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
+121            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+121-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:48:13-79
+122            android:excludeFromRecents="true"
+122-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:49:13-46
+123            android:exported="true"
+123-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:50:13-36
+124            android:launchMode="singleTask"
+124-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:51:13-44
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+125-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:52:13-72
+126            <intent-filter>
+126-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:53:13-63:29
+127                <action android:name="android.intent.action.VIEW" />
+127-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+127-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+129-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+130                <category android:name="android.intent.category.BROWSABLE" />
+130-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+130-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+131
+132                <data
+132-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+133                    android:host="firebase.auth"
+133-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+134                    android:path="/"
+134-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+135                    android:scheme="recaptcha" />
+135-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+136            </intent-filter>
+137        </activity>
+138
+139        <service
+139-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+140            android:name="com.google.firebase.components.ComponentDiscoveryService"
+140-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:67:13-84
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+142            android:exported="false" >
+142-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:68:13-37
+143            <meta-data
+143-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:69:13-71:85
+144                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+144-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7a2c144da92096190063322aee577954/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+147                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+147-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7a2c144da92096190063322aee577954/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7a2c144da92096190063322aee577954/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+150                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+150-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+152        </service>
+153        <service
+153-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+154            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+154-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+155            android:enabled="true"
+155-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+156            android:exported="false" >
+156-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+157            <meta-data
+157-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+158                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+158-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+159                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+159-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+160        </service>
+161
+162        <activity
+162-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+163            android:name="androidx.credentials.playservices.HiddenActivity"
+163-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+164            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+164-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+165            android:enabled="true"
+165-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+166            android:exported="false"
+166-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+167            android:fitsSystemWindows="true"
+167-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+168            android:theme="@style/Theme.Hidden" >
+168-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+169        </activity>
+170        <activity
+170-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:23:9-27:75
+171            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+171-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:24:13-93
+172            android:excludeFromRecents="true"
+172-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:25:13-46
+173            android:exported="false"
+173-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:26:13-37
+174            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+174-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:27:13-72
+175        <!--
+176            Service handling Google Sign-In user revocation. For apps that do not integrate with
+177            Google Sign-In, this service will never be started.
+178        -->
+179        <service
+179-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:33:9-37:51
+180            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+180-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:34:13-89
+181            android:exported="true"
+181-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:35:13-36
+182            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+182-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:36:13-107
+183            android:visibleToInstantApps="true" />
+183-->[com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:37:13-48
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+187            android:authorities="com.example.akshayshopapp.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+191
+192        <activity
+192-->[com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+193            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+193-->[com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+196
+197        <provider
+197-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+198            android:name="androidx.startup.InitializationProvider"
+198-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+199            android:authorities="com.example.akshayshopapp.androidx-startup"
+199-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+200            android:exported="false" >
+200-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+201            <meta-data
+201-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+202                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+202-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+203                android:value="androidx.startup" />
+203-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+204            <meta-data
+204-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/akshaybhasme/.gradle/caches/transforms-3/f34a390871098deedcba58445a107e72/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
+205                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+205-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/akshaybhasme/.gradle/caches/transforms-3/f34a390871098deedcba58445a107e72/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
+206                android:value="androidx.startup" />
+206-->[androidx.lifecycle:lifecycle-process:2.8.5] /Users/akshaybhasme/.gradle/caches/transforms-3/f34a390871098deedcba58445a107e72/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
+207            <meta-data
+207-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+208                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+208-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+209                android:value="androidx.startup" />
+209-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+210        </provider>
+211
+212        <meta-data
+212-->[com.google.android.gms:play-services-basement:18.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c692e296bc87f63b81b63772df8e1328/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+213            android:name="com.google.android.gms.version"
+213-->[com.google.android.gms:play-services-basement:18.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c692e296bc87f63b81b63772df8e1328/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+214            android:value="@integer/google_play_services_version" />
+214-->[com.google.android.gms:play-services-basement:18.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c692e296bc87f63b81b63772df8e1328/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+215
+216        <receiver
+216-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+217            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+217-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+218            android:directBootAware="false"
+218-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+219            android:enabled="true"
+219-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+220            android:exported="true"
+220-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+221            android:permission="android.permission.DUMP" >
+221-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+222            <intent-filter>
+222-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+223                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+223-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+223-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+224            </intent-filter>
+225            <intent-filter>
+225-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+226                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+226-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+226-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+227            </intent-filter>
+228            <intent-filter>
+228-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+229                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+229-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+229-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+230            </intent-filter>
+231            <intent-filter>
+231-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+232                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+232-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+232-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+233            </intent-filter>
+234        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+235        <activity
+235-->[com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+236            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+236-->[com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93
+237            android:exported="false"
+237-->[com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+238            android:stateNotNeeded="true"
+238-->[com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+239            android:theme="@style/Theme.PlayCore.Transparent" />
+239-->[com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+240    </application>
+241
+242</manifest>

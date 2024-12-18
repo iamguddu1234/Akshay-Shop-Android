@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902394176012",
+    "project_id": "akshay-shop-app",
+    "storage_bucket": "akshay-shop-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902394176012:android:2075e384a474aa10498429",
+        "android_client_info": {
+          "package_name": "com.example.akshayshopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902394176012-e1f3tp7b6etf473743sgnv6p3gts7qo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAstfvkc20Vf2iSQ7V5lzE8PBgVEcloPAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902394176012-e1f3tp7b6etf473743sgnv6p3gts7qo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

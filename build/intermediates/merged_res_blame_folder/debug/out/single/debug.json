@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_custome_product_card.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/custome_product_card.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_user_details_view.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_user_details_view.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_wish_list_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_wish_list_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_delete_product.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_delete_product.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_register_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_register_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_add_to_cart_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_add_to_cart_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_custome_category.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/custome_category.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_main.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_custome_user_view.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/custome_user_view.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_add_product.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_add_product.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_category_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_category_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/xml_network_config.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/xml/network_config.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_otp_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_otp_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_delete_user.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_delete_user.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_no_internet_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_no_internet_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_add_user.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_add_user.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_my_account_details_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_my_account_details_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_update_product.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_update_product.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/xml_backup_rules.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_admin_panel_home.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_admin_panel_home.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.akshayshopapp-main-54:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_update_user.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_update_user.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_product_details_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_product_details_screen.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_wishlist_view.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/wishlist_view.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_all_user_details.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_all_user_details.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/drawable_baseline_favorite_border_24.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/drawable/baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "com.example.akshayshopapp-merged_res-52:/layout_activity_login_screen.xml.flat",
+        "source": "com.example.akshayshopapp-main-54:/layout/activity_login_screen.xml"
+    }
+]

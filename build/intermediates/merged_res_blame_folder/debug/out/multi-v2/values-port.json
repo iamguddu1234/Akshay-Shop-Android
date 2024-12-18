@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.akshayshopapp-mergeDebugResources-50:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/akshaybhasme/.gradle/caches/transforms-3/ec4bf00bbb70bf67f6354537de6953e0/transformed/appcompat-1.7.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
