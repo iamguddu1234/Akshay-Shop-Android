@@ -2,4 +2,7 @@
     <string name="app_name">Akshay Shop APP</string>
     <string name="default_web_client_id">902394176012-hfiip48lbaj9cpuj2sgmjmoo8n5t0ljm.apps.googleusercontent.com</string>
 
+    <string name="facebook_app_id">1713810499186297</string>
+    <string name="fb_login_protocol_scheme">fb1713810499186297</string>
+    <string name="facebook_client_token">56789</string>
 </resources>

@@ -22,6 +22,9 @@ id b_share
 id b_verify
 id btn_asc
 id btn_desc
+id buy_now
+id cartList
+id cart_rv
 id categoriesRV
 id category
 id category_card
@@ -62,7 +65,9 @@ id number
 id password
 id phone
 id price
+id priceText
 id register
+id removeBtn
 id removeFromWishList
 id rv_category
 id rv_product
@@ -123,6 +128,7 @@ layout activity_update_product
 layout activity_update_user
 layout activity_user_details_view
 layout activity_wish_list_screen
+layout custome_car_view
 layout custome_category
 layout custome_product_card
 layout custome_user_view
@@ -131,6 +137,9 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string default_web_client_id
+string facebook_app_id
+string facebook_client_token
+string fb_login_protocol_scheme
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

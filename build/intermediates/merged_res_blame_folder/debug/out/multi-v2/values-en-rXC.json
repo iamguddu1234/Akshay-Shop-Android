@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.akshayshopapp-mergeDebugResources-50:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.akshayshopapp-mergeDebugResources-60:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/res/values-en-rXC/values-en-rXC.xml",

@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id("kotlin-kapt")
 }
 
 android {
@@ -81,6 +82,16 @@ dependencies {
 
     implementation ("com.facebook.shimmer:shimmer:0.5.0")
 
+    implementation ("org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0")
+
+    implementation ("com.razorpay:checkout:1.6.27")
+
+    implementation ("com.facebook.android:facebook-login:latest.release")
+
+
+    implementation ("androidx.room:room-runtime:2.6.1")
+    kapt ("androidx.room:room-compiler:2.6.1")
+    implementation ("androidx.room:room-ktx:2.6.1")
 
 
 }

@@ -6,9 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import androidx.core.widget.addTextChangedListener
+import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.akshayshopapp.Activity.AddToCartScreen
 import com.example.akshayshopapp.Activity.CategoryScreen
 import com.example.akshayshopapp.Activity.ProductDetailsScreen
 import com.example.akshayshopapp.Activity.WishLIstScreen
@@ -17,14 +18,20 @@ import com.example.akshayshopapp.Adapter.ProductListAdapter
 import com.example.akshayshopapp.Repository.ProductRepository
 import com.example.akshayshopapp.Retrofit.RetrofitInstance
 import com.example.akshayshopapp.ViewModel.ProductViewModel
+import com.example.akshayshopapp.dataClass.Product
 import com.example.akshayshopapp.databinding.ActivityMainBinding
+import com.google.gson.Gson
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var viewModel: ProductViewModel
-    private lateinit var adapter: ProductListAdapter
+    private lateinit var productListAdapter: ProductListAdapter
     private lateinit var category_adapter: CategoryAdapter
+
+
+    private var wishList = mutableListOf<Product>()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,13 +41,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.wishList.setOnClickListener {
-            val intent = Intent(this, WishLIstScreen::class.java)
-            startActivity(intent)
-        }
-
         val repository = ProductRepository(RetrofitInstance.api)
         viewModel = ProductViewModel(repository)
+
 
 
         binding.rvCategory.layoutManager =
@@ -79,16 +82,17 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.rvProduct.layoutManager = GridLayoutManager(this, 2)
-        adapter = ProductListAdapter(listOf(), onFavorite = { favProduct ->
-            val intent = Intent(this, WishLIstScreen::class.java).apply {
-                putExtra("id", favProduct.id)
-                putExtra("image", favProduct.image)
-                putExtra("title", favProduct.title)
-                putExtra("price", favProduct.price)
-                putExtra("category", favProduct.category)
-                putExtra("description", favProduct.description)
-            }
-            startActivity(intent)
+        productListAdapter = ProductListAdapter(listOf(), onFavorite = { favProduct ->
+//            val intent = Intent(this, WishLIstScreen::class.java).apply {
+//                putExtra("id", favProduct.id)
+//                putExtra("image", favProduct.image)
+//                putExtra("title", favProduct.title)
+//                putExtra("price", favProduct.price)
+//                putExtra("category", favProduct.category)
+//                putExtra("description", favProduct.description)
+            addProductToWishlist(favProduct)
+//            }
+//            startActivity(intent)
         }, onItemCLicked = { product ->
             val intent = Intent(this, ProductDetailsScreen::class.java).apply {
                 putExtra("id", product.id)
@@ -103,12 +107,15 @@ class MainActivity : AppCompatActivity() {
 
         }
         )
-        binding.rvProduct.adapter = adapter
+        binding.rvProduct.adapter = productListAdapter
+        // Pass the wishlist data to the adapter
 
 
         viewModel.productLiveData.observe(this) { product ->
-            adapter.updateProductList(product)
+            productListAdapter.updateProductList(product)
         }
+
+
 
         viewModel.getAllProduct()
 
@@ -134,7 +141,7 @@ class MainActivity : AppCompatActivity() {
         //Search Product Logic
         binding.searchBox.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
-                adapter.filter(s.toString())
+                productListAdapter.filter(s.toString())
             }
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -147,6 +154,41 @@ class MainActivity : AppCompatActivity() {
         })
 
 
+        // Load the wishlist from SharedPreferences
+        wishList.addAll(WishlistUtil.getWishlist(this))
+
+
+        // Setup for the wishlist screen
+        binding.wishList.setOnClickListener {
+            val intent = Intent(this, WishLIstScreen::class.java)
+            startActivity(intent)
+        }
+
+        binding.cartList.setOnClickListener {
+            val intent = Intent(this, AddToCartScreen::class.java)
+            startActivity(intent)
+        }
+
+
+    }
+
+
+    // Function to add product to the wishlist
+    private fun addProductToWishlist(product: Product) {
+        // Add the product to wishlist if not already added
+        if (!wishList.contains(product)) {
+            wishList.add(product)
+
+            // Save the updated wishlist to SharedPreferences
+            WishlistUtil.saveWishlist(this, wishList)
+
+
+            // Notify the user
+            Toast.makeText(this, "${product.title} added to wishlist!", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "${product.title} is already in the wishlist!", Toast.LENGTH_SHORT)
+                .show()
+        }
     }
 
     @SuppressLint("MissingSuperCall")

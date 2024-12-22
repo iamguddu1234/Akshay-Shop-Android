@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.akshayshopapp.Activity.WishLIstScreen
 import com.example.akshayshopapp.dataClass.Product
 import com.example.akshayshopapp.databinding.CustomeCategoryBinding
 import com.example.akshayshopapp.databinding.CustomeProductCardBinding
@@ -17,6 +18,13 @@ class ProductListAdapter(
 
 
     private var filterProductList: List<Product> = productList//search
+
+//    // Assuming you have a reference to the WishLIstScreen
+//    private var wishlistScreen: WishLIstScreen? = null
+//    // Setter for wishlist screen, this should be called from MainActivity or the context
+//    fun setWishlistScreen(wishlistScreen: WishLIstScreen) {
+//        this.wishlistScreen = wishlistScreen
+//    }
 
     class ProductViewHolder(val binding: CustomeProductCardBinding) :
         RecyclerView.ViewHolder(binding.root) {
@@ -50,6 +58,11 @@ class ProductListAdapter(
 
         holder.binding.addWishList.setOnClickListener {
             onFavorite(product)
+
+
+            // When "Add to Wishlist" is clicked, we call addProductToWishlist
+//            wishlistScreen?.addProductToWishList(product) // Call to add the product to the wishlist
+
         }
     }
 

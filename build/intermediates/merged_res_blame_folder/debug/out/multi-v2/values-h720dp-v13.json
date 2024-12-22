@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.akshayshopapp-mergeDebugResources-50:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.akshayshopapp-mergeDebugResources-60:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/akshaybhasme/.gradle/caches/transforms-3/ec4bf00bbb70bf67f6354537de6953e0/transformed/appcompat-1.7.0/res/values-h720dp-v13/values-h720dp-v13.xml",

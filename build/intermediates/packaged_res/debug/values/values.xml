@@ -4,6 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Akshay Shop APP</string>
     <string name="default_web_client_id" translatable="false">902394176012-e1f3tp7b6etf473743sgnv6p3gts7qo8.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1713810499186297</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="fb_login_protocol_scheme">fb1713810499186297</string>
     <string name="gcm_defaultSenderId" translatable="false">902394176012</string>
     <string name="google_api_key" translatable="false">AIzaSyAstfvkc20Vf2iSQ7V5lzE8PBgVEcloPAI</string>
     <string name="google_app_id" translatable="false">1:902394176012:android:2075e384a474aa10498429</string>

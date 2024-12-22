@@ -98,9 +98,17 @@
 
         <Button
             android:id="@+id/wishList"
+            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="WishList" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/cartList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cart List" />
 
     </LinearLayout>
 

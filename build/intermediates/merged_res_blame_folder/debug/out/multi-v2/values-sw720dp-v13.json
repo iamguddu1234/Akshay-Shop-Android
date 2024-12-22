@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.akshayshopapp-mergeDebugResources-50:/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "com.example.akshayshopapp-mergeDebugResources-60:/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/akshaybhasme/.gradle/caches/transforms-3/7de12822ed16ea18b3cb00b3bb77d0e3/transformed/ssp-android-1.1.0/res/values-sw720dp-v13/values-sw720dp-v13.xml",

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    tools:context=".AdminPanel.AdminPanel_Home">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="AdminPanel"
+        android:textSize="@dimen/_30ssp" />
+
+
+    <Button
+        android:id="@+id/addProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Add Product" />
+
+
+    <Button
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/UpdateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Product" />
+
+
+    <Button
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/DeleteProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Product" />
+
+
+    <Button
+        android:id="@+id/allUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="All User Details" />
+
+    <Button
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/addUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add User" />
+
+    <Button
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/updateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User" />
+
+    <Button
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/deleteUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete User" />
+
+
+</LinearLayout>

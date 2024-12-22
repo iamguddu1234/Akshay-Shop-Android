@@ -32,20 +32,32 @@ class CategoryScreen : AppCompatActivity() {
         val selectCategory = intent.getStringExtra("category") ?: return
 
 
-//        binding.categoriesRV.layoutManager = GridLayoutManager(this, 2)
-//        productListAdapter = ProductListAdapter(listOf()) { product ->
-//
-//            val intent = Intent(this, ProductDetailsScreen::class.java).apply {
-//                putExtra("id", product.id)
-//                putExtra("image", product.image)
-//                putExtra("title", product.title)
-//                putExtra("price", product.price)
-//                putExtra("category", product.category)
-//                putExtra("description", product.description)
+        binding.categoriesRV.layoutManager = GridLayoutManager(this, 2)
+        productListAdapter = ProductListAdapter(listOf(), onFavorite = { favProduct ->
+//            val intent = Intent(this, WishLIstScreen::class.java).apply {
+//                putExtra("id", favProduct.id)
+//                putExtra("image", favProduct.image)
+//                putExtra("title", favProduct.title)
+//                putExtra("price", favProduct.price)
+//                putExtra("category", favProduct.category)
+//                putExtra("description", favProduct.description)
+//            addProductToWishlist(favProduct)
 //            }
 //            startActivity(intent)
-//
-//        }
+        }, onItemCLicked = { product ->
+            val intent = Intent(this, ProductDetailsScreen::class.java).apply {
+                putExtra("id", product.id)
+                putExtra("image", product.image)
+                putExtra("title", product.title)
+                putExtra("price", product.price)
+                putExtra("category", product.category)
+                putExtra("description", product.description)
+            }
+            startActivity(intent)
+
+
+        }
+        )
 
 
 
@@ -59,7 +71,7 @@ class CategoryScreen : AppCompatActivity() {
 
         viewModel.productLiveData.observe(this) { products ->
             productListAdapter.updateProductList(products)
-            // Log.d("Category Screen","data get ${products}")
+             Log.d("Category Screen","data get ${products}")
         }
 
         viewModel.getProductByCategory(selectCategory)

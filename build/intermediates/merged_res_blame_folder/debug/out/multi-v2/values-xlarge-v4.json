@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.akshayshopapp-mergeDebugResources-50:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.akshayshopapp-mergeDebugResources-60:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "/Users/akshaybhasme/.gradle/caches/transforms-3/ec4bf00bbb70bf67f6354537de6953e0/transformed/appcompat-1.7.0/res/values-xlarge-v4/values-xlarge-v4.xml",

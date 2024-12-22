@@ -28,6 +28,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnDesc;
 
   @NonNull
+  public final Button cartList;
+
+  @NonNull
   public final EditText edLimit;
 
   @NonNull
@@ -46,12 +49,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button wishList;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button btnAsc,
-      @NonNull Button btnDesc, @NonNull EditText edLimit, @NonNull RecyclerView rvCategory,
-      @NonNull RecyclerView rvProduct, @NonNull Button search, @NonNull EditText searchBox,
-      @NonNull Button wishList) {
+      @NonNull Button btnDesc, @NonNull Button cartList, @NonNull EditText edLimit,
+      @NonNull RecyclerView rvCategory, @NonNull RecyclerView rvProduct, @NonNull Button search,
+      @NonNull EditText searchBox, @NonNull Button wishList) {
     this.rootView = rootView;
     this.btnAsc = btnAsc;
     this.btnDesc = btnDesc;
+    this.cartList = cartList;
     this.edLimit = edLimit;
     this.rvCategory = rvCategory;
     this.rvProduct = rvProduct;
@@ -99,6 +103,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cartList;
+      Button cartList = ViewBindings.findChildViewById(rootView, id);
+      if (cartList == null) {
+        break missingId;
+      }
+
       id = R.id.ed_limit;
       EditText edLimit = ViewBindings.findChildViewById(rootView, id);
       if (edLimit == null) {
@@ -135,7 +145,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, btnAsc, btnDesc, edLimit,
+      return new ActivityMainBinding((RelativeLayout) rootView, btnAsc, btnDesc, cartList, edLimit,
           rvCategory, rvProduct, search, searchBox, wishList);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -16,12 +16,19 @@ import com.example.akshayshopapp.Repository.LoginRepository
 import com.example.akshayshopapp.Retrofit.RetrofitInstance
 import com.example.akshayshopapp.ViewModel.LoginViewModel
 import com.example.akshayshopapp.databinding.ActivityLoginScreenBinding
+import com.facebook.AccessToken
+import com.facebook.CallbackManager
+import com.facebook.FacebookCallback
+import com.facebook.FacebookException
+import com.facebook.login.LoginManager
+import com.facebook.login.LoginResult
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 
 import com.google.android.gms.common.api.ApiException
+import com.google.firebase.auth.FacebookAuthProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
@@ -31,10 +38,16 @@ class Login_Screen : AppCompatActivity() {
     private lateinit var binding: ActivityLoginScreenBinding
     private lateinit var viewModel: LoginViewModel
 
-    //Login Material
+    //Login Material -google
     private lateinit var googleSignInClient: GoogleSignInClient
     private lateinit var firebaseAuth: FirebaseAuth
     private val RC_SIGN_IN = 9001
+
+
+
+    //login material facebook
+    private lateinit var auth: FirebaseAuth
+    private lateinit var callbackManager: CallbackManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,6 +55,8 @@ class Login_Screen : AppCompatActivity() {
 
         binding = ActivityLoginScreenBinding.inflate(layoutInflater)
 
+        // Initialize Facebook CallbackManager
+        callbackManager = CallbackManager.Factory.create()
 
 
 
@@ -117,6 +132,30 @@ class Login_Screen : AppCompatActivity() {
             Toast.makeText(this,"Successfull",Toast.LENGTH_LONG).show()
         }
 
+        binding.signInWithFacebook.setOnClickListener {
+            LoginManager.getInstance().logInWithReadPermissions(
+                this,
+                listOf("email", "public_profile")
+            )
+        }
+
+        // Handle Facebook login result
+        LoginManager.getInstance().registerCallback(callbackManager,
+            object : FacebookCallback<LoginResult> {
+                override fun onSuccess(loginResult: LoginResult) {
+                    Log.d("FacebookLogin", "facebook:onSuccess:$loginResult")
+                    handleFacebookAccessToken(loginResult.accessToken)
+                }
+
+                override fun onCancel() {
+                    Log.d("FacebookLogin", "facebook:onCancel")
+                }
+
+                override fun onError(error: FacebookException) {
+                    Log.d("FacebookLogin", "facebook:onError", error)
+                }
+            })
+
 
     }
 
@@ -124,6 +163,9 @@ class Login_Screen : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
+
+        // Handle Facebook login result
+        callbackManager.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == RC_SIGN_IN) {
             val task = GoogleSignIn.getSignedInAccountFromIntent(data)
@@ -149,6 +191,34 @@ class Login_Screen : AppCompatActivity() {
                 }
             }
     }
+
+
+
+    private fun handleFacebookAccessToken(token: AccessToken) {
+        Log.d("FacebookLogin", "handleFacebookAccessToken:$token")
+
+        val credential = FacebookAuthProvider.getCredential(token.token)
+        firebaseAuth.signInWithCredential(credential)
+            .addOnCompleteListener(this) { task ->
+                if (task.isSuccessful) {
+                    // Sign in success, go to MainActivity
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                } else {
+                    // Sign in failure
+                    Toast.makeText(baseContext, "Facebook Authentication failed.", Toast.LENGTH_SHORT).show()
+                }
+            }
+    }
+
+
+
+
+
+
+
+
 
 
     private fun isInternetAvailable(): Boolean {

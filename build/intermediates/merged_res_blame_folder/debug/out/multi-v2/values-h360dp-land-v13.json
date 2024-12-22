@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.akshayshopapp-mergeDebugResources-50:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "com.example.akshayshopapp-mergeDebugResources-60:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
                     "source": "/Users/akshaybhasme/.gradle/caches/transforms-3/ded6fa2bcae66b7d6fd735061df65381/transformed/material-1.12.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",

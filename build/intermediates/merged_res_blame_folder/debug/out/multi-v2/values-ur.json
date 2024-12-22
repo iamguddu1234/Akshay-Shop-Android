@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.akshayshopapp-mergeDebugResources-50:/values-ur/values-ur.xml",
+            "outputFile": "com.example.akshayshopapp-mergeDebugResources-60:/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/akshaybhasme/.gradle/caches/transforms-3/ded6fa2bcae66b7d6fd735061df65381/transformed/material-1.12.0/res/values-ur/values-ur.xml",
@@ -105,6 +105,23 @@
                         "startOffsets": "5696",
                         "endColumns": "151",
                         "endOffsets": "5843"
+                    }
+                },
+                {
+                    "source": "/Users/akshaybhasme/.gradle/caches/transforms-3/e0efc88f7c68a9a6693e2d4588313ac4/transformed/play-services-wallet-18.1.3/res/values-ur/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "76",
+                        "endOffsets": "278"
+                    },
+                    "to": {
+                        "startLines": "141",
+                        "startColumns": "4",
+                        "startOffsets": "12811",
+                        "endColumns": "80",
+                        "endOffsets": "12887"
                     }
                 },
                 {

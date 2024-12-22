@@ -1,16 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:2:1-90:12
-INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:2:1-90:12
-INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:2:1-90:12
-INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:2:1-90:12
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:2:1-105:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] /Users/akshaybhasme/.gradle/caches/transforms-3/dd5225018474eff2c7ab1bdea77e84ca/transformed/viewbinding-8.2.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ded6fa2bcae66b7d6fd735061df65381/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cd4465bcf2efa2178a8a8f393de4458f/transformed/constraintlayout-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.airbnb.android:lottie:3.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/217eb90811facdcb7f799b33aff2213e/transformed/lottie-3.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-login:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/60587232d4c60e43bceaa279fdd9a7e1/transformed/facebook-login-17.0.2/AndroidManifest.xml:9:1-19:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f490adf07f18e47c8c477bbf90b8cc09/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:9:1-44:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ec4bf00bbb70bf67f6354537de6953e0/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:2:1-65:12
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/5795e7670a8d7c5578de7b3027698e6d/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:17:1-40:12
@@ -24,12 +27,19 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/akshaybhas
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7a2c144da92096190063322aee577954/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/akshaybhasme/.gradle/caches/transforms-3/df59b2a757bdfa032ac8a9f1c71f59af/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/akshaybhasme/.gradle/caches/transforms-3/e0efc88f7c68a9a6693e2d4588313ac4/transformed/play-services-wallet-18.1.3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/3403fa460db6f7550d5e8672e70522b4/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e78cf7df7325c4cb160ce1ed2a226170/transformed/play-services-identity-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/d46fa224bc8046928a45764abff10ac3/transformed/room-ktx-2.5.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f052c21ce49ac4e3a25d7fc0bdd6f8a6/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.transition:transition:1.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cd9a4f613f512dae859b8536b9fbde61/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/30d564aaba42d6f3f34f600533b204ba/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:9:1-50:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/064cb570650fc942db6da7ab8f8d3d83/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7020a573bce13d1d3fd95bd72bda3c2e/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b9793c07a17150ca0996650fb78a7569/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/fb3b02482951e8196ef9952a51bff98e/transformed/loader-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/akshaybhasme/.gradle/caches/transforms-3/45d747573cd42d4e36be51c2b99da844/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
@@ -39,7 +49,11 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/akshaybhasme/.
 MERGED from [androidx.browser:browser:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cf086a72f9fdb1b7d9462fd0c68a0526/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e02207f4e54af1ece2c1a1758e149a33/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4b1b1ff84292ec9fee6ee2346035bdd5/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/77658feeab27e3f21eb547e136c33a54/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2a50f70092b2894b499bbdd360899a56/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f8a8324ec670713a57586d74e778441c/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e842029c605b909cc0d7fd5c812d201d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4310f1161e0617ab565e9a3b8dcd44cf/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/akshaybhasme/.gradle/caches/transforms-3/4c66bace6f1e475a7995e25d7888e21f/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/akshaybhasme/.gradle/caches/transforms-3/3893b6fed776dabaeda4d7b5e8efcc78/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
@@ -59,7 +73,11 @@ MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/akshay
 MERGED from [androidx.fragment:fragment:1.5.7] /Users/akshaybhasme/.gradle/caches/transforms-3/a93e42b7ce12ed625f67b6d88d6ebbcf/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4d6267a6de7082a4d035d81ae8fec883/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/akshaybhasme/.gradle/caches/transforms-3/60e1268933cc5d3982eaf17e9b76394a/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.android:facebook-bolts:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/c98fbd7fe90c705539f4d55aa3673706/transformed/facebook-bolts-17.0.2/AndroidManifest.xml:9:1-19:12
 MERGED from [androidx.core:core-ktx:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/028a7bbdffa0c9c61ced1c05eec9a6fe/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/6447b239db644988bf1b7c8e034cda63/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/9429621043db130b8fd913453c3b3840/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.shimmer:shimmer:0.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5998818505830346f4498b53c88f9410/transformed/shimmer-0.5.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cb7d2bc6beed0ff9509b00e5974c0b0a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/6039349f88df116f0bfceca8e195c3fb/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -81,6 +99,7 @@ MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/akshaybhasme/.gradle/c
 MERGED from [com.intuit.ssp:ssp-android:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7de12822ed16ea18b3cb00b3bb77d0e3/transformed/ssp-android-1.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/bfe9f4a4bcd80501b57d5a51dc7c7cd9/transformed/sdp-android-1.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5859dbc546ed22d8db830ba86bce3356/transformed/installreferrer-1.0/AndroidManifest.xml:2:1-13:12
 	package
 		INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -97,14 +116,20 @@ MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.grad
 MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/akshaybhasme/.gradle/caches/transforms-3/4570a723a131f999fcd52ba89d130ba5/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/akshaybhasme/.gradle/caches/transforms-3/4570a723a131f999fcd52ba89d130ba5/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
 ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:10:5-67
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:10:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/akshaybhasme/.gradle/caches/transforms-3/4570a723a131f999fcd52ba89d130ba5/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/akshaybhasme/.gradle/caches/transforms-3/4570a723a131f999fcd52ba89d130ba5/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -112,16 +137,22 @@ ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/
 	android:name
 		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:7:22-73
 application
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:9:5-88:19
-INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:9:5-88:19
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:9:5-103:19
+INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:9:5-103:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ded6fa2bcae66b7d6fd735061df65381/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ded6fa2bcae66b7d6fd735061df65381/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cd4465bcf2efa2178a8a8f393de4458f/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cd4465bcf2efa2178a8a8f393de4458f/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/217eb90811facdcb7f799b33aff2213e/transformed/lottie-3.4.0/AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/217eb90811facdcb7f799b33aff2213e/transformed/lottie-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-login:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/60587232d4c60e43bceaa279fdd9a7e1/transformed/facebook-login-17.0.2/AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-login:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/60587232d4c60e43bceaa279fdd9a7e1/transformed/facebook-login-17.0.2/AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:21:5-42:19
+MERGED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:21:5-42:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:40:5-63:19
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:40:5-63:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
 MERGED from [com.google.android.gms:play-services-auth:21.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c992fe5eb54ddf76939ad91dd3eaafc6/transformed/play-services-auth-21.3.0/AndroidManifest.xml:22:5-38:19
@@ -140,10 +171,16 @@ MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gr
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/3403fa460db6f7550d5e8672e70522b4/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/3403fa460db6f7550d5e8672e70522b4/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e78cf7df7325c4cb160ce1ed2a226170/transformed/play-services-identity-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e78cf7df7325c4cb160ce1ed2a226170/transformed/play-services-identity-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:18:5-48:19
+MERGED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:18:5-48:19
 MERGED from [androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /Users/akshaybhasme/.gradle/caches/transforms-3/f34a390871098deedcba58445a107e72/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:23:5-33:19
@@ -152,6 +189,10 @@ MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/akshaybha
 MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c670752b55c1a349ef74159627389c0d/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c692e296bc87f63b81b63772df8e1328/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c692e296bc87f63b81b63772df8e1328/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.facebook.android:facebook-bolts:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/c98fbd7fe90c705539f4d55aa3673706/transformed/facebook-bolts-17.0.2/AndroidManifest.xml:16:5-17:19
+MERGED from [com.facebook.android:facebook-bolts:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/c98fbd7fe90c705539f4d55aa3673706/transformed/facebook-bolts-17.0.2/AndroidManifest.xml:16:5-17:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/akshaybhasme/.gradle/caches/transforms-3/e8264db45b2a4143825fa45688926d0f/transformed/gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
@@ -162,6 +203,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/aksh
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/akshaybhasme/.gradle/caches/transforms-3/bd7f3e15d9c6645bebcb9eca5733f13a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5859dbc546ed22d8db830ba86bce3356/transformed/installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5859dbc546ed22d8db830ba86bce3356/transformed/installreferrer-1.0/AndroidManifest.xml:11:5-20
 	android:extractNativeLibs
 		INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
@@ -186,136 +229,176 @@ MERGED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gra
 		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:15:9-60
 	android:dataExtractionRules
 		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:11:9-65
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:21:9-107
+	android:value
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:21:66-105
+	android:name
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:21:20-65
+meta-data#com.facebook.sdk.ClientToken
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:22:9-111
+	android:value
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:22:64-109
+	android:name
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:22:20-63
 activity#com.example.akshayshopapp.AdminPanel.Activity.UserDetailsView
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:20:9-22:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:22:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:21:13-64
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:25:13-64
 activity#com.example.akshayshopapp.AdminPanel.Activity.DeleteUser
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:23:9-25:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:27:9-29:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:25:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:24:13-59
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:28:13-59
 activity#com.example.akshayshopapp.AdminPanel.Activity.Update_User
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:26:9-28:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:30:9-32:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:28:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:27:13-60
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:31:13-60
 activity#com.example.akshayshopapp.AdminPanel.Activity.Add_user
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:29:9-31:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:33:9-35:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:31:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:30:13-57
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:34:13-57
 activity#com.example.akshayshopapp.AdminPanel.Activity.All_User_details
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:32:9-34:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:36:9-38:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:34:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:33:13-65
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:37:13-65
 activity#com.example.akshayshopapp.AdminPanel.Activity.Delete_product
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:35:9-37:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:39:9-41:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:37:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:36:13-63
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:40:13-63
 activity#com.example.akshayshopapp.AdminPanel.Activity.Update_product
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:38:9-40:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:42:9-44:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:40:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:39:13-63
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:43:13-63
 activity#com.example.akshayshopapp.AdminPanel.Activity.Add_product
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:41:9-43:40
-	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:43:13-37
-	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:42:13-60
-activity#com.example.akshayshopapp.Activity.MyAccountDetailsScreen
 ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:45:9-47:40
 	android:exported
 		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:47:13-37
 	android:name
 		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:46:13-60
+activity#com.example.akshayshopapp.Activity.MyAccountDetailsScreen
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:50:13-60
 activity#com.example.akshayshopapp.Activity.NoInternetScreen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:48:9-50:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:52:9-54:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:50:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:49:13-54
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:53:13-54
 activity#com.example.akshayshopapp.Activity.OtpScreen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:51:9-53:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:55:9-57:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:53:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:52:13-47
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:56:13-47
 activity#com.example.akshayshopapp.Activity.AddToCartScreen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:54:9-56:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:58:9-60:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:56:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:55:13-53
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:59:13-53
 activity#com.example.akshayshopapp.Activity.WishLIstScreen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:57:9-59:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:61:9-63:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:59:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:58:13-52
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:62:13-52
 activity#com.example.akshayshopapp.Activity.CategoryScreen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:60:9-62:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:64:9-66:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:62:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:61:13-52
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:65:13-52
 activity#com.example.akshayshopapp.Activity.ProductDetailsScreen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:63:9-65:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:67:9-69:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:65:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:69:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:64:13-58
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:68:13-58
 activity#com.example.akshayshopapp.Activity.RegisterScreen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:66:9-68:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:70:9-72:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:68:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:72:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:67:13-52
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:71:13-52
 activity#com.example.akshayshopapp.Activity.SplashScreen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:69:9-71:40
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:73:9-75:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:71:13-37
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:75:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:70:13-50
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:74:13-50
 activity#com.example.akshayshopapp.AdminPanel.AdminPanel_Home
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:72:9-74:40
-	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:74:13-37
-	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:73:13-55
-activity#com.example.akshayshopapp.MainActivity
 ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:76:9-78:40
 	android:exported
 		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:78:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:77:13-41
-activity#com.example.akshayshopapp.Activity.Login_Screen
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:79:9-87:20
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:77:13-55
+activity#com.example.akshayshopapp.MainActivity
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:80:9-82:40
 	android:exported
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:81:13-36
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:80:13-50
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:82:13-86:29
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:81:13-41
+activity#com.facebook.FacebookActivity
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:85:9-88:48
+MERGED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:22:9-25:66
+MERGED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:22:9-25:66
+	android:label
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:88:13-45
+	android:configChanges
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:87:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:25:13-63
+	android:name
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:86:13-57
+activity#com.example.akshayshopapp.Activity.Login_Screen
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:90:9-102:20
+	android:exported
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:91:13-50
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:93:13-101:29
 action#android.intent.action.MAIN
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:83:17-69
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:94:17-69
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:83:25-66
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:94:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:85:17-77
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:96:17-77
 	android:name
-		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:85:27-74
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:96:27-74
+action#android.intent.action.VIEW
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:97:17-69
+	android:name
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:97:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:98:17-76
+	android:name
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:98:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:99:17-78
+	android:name
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:99:27-75
+data
+ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:100:17-75
+	android:scheme
+		ADDED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml:100:23-72
 uses-sdk
 INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml
@@ -328,12 +411,18 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/akshaybhas
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cd4465bcf2efa2178a8a8f393de4458f/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.airbnb.android:lottie:3.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/217eb90811facdcb7f799b33aff2213e/transformed/lottie-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/217eb90811facdcb7f799b33aff2213e/transformed/lottie-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-login:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/60587232d4c60e43bceaa279fdd9a7e1/transformed/facebook-login-17.0.2/AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-login:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/60587232d4c60e43bceaa279fdd9a7e1/transformed/facebook-login-17.0.2/AndroidManifest.xml:12:5-14:41
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f490adf07f18e47c8c477bbf90b8cc09/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f490adf07f18e47c8c477bbf90b8cc09/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:13:5-15:41
+MERGED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:13:5-15:41
 MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ec4bf00bbb70bf67f6354537de6953e0/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ec4bf00bbb70bf67f6354537de6953e0/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
 MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:6:5-8:41
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/5795e7670a8d7c5578de7b3027698e6d/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/5795e7670a8d7c5578de7b3027698e6d/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
@@ -360,10 +449,18 @@ MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gr
 MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/akshaybhasme/.gradle/caches/transforms-3/df59b2a757bdfa032ac8a9f1c71f59af/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/akshaybhasme/.gradle/caches/transforms-3/df59b2a757bdfa032ac8a9f1c71f59af/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/akshaybhasme/.gradle/caches/transforms-3/e0efc88f7c68a9a6693e2d4588313ac4/transformed/play-services-wallet-18.1.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/akshaybhasme/.gradle/caches/transforms-3/e0efc88f7c68a9a6693e2d4588313ac4/transformed/play-services-wallet-18.1.3/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/3403fa460db6f7550d5e8672e70522b4/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/3403fa460db6f7550d5e8672e70522b4/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e78cf7df7325c4cb160ce1ed2a226170/transformed/play-services-identity-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e78cf7df7325c4cb160ce1ed2a226170/transformed/play-services-identity-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
 MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/d46fa224bc8046928a45764abff10ac3/transformed/room-ktx-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/d46fa224bc8046928a45764abff10ac3/transformed/room-ktx-2.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f052c21ce49ac4e3a25d7fc0bdd6f8a6/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f052c21ce49ac4e3a25d7fc0bdd6f8a6/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
@@ -372,6 +469,12 @@ MERGED from [androidx.transition:transition:1.5.0] /Users/akshaybhasme/.gradle/c
 MERGED from [androidx.transition:transition:1.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cd9a4f613f512dae859b8536b9fbde61/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/30d564aaba42d6f3f34f600533b204ba/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/30d564aaba42d6f3f34f600533b204ba/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/064cb570650fc942db6da7ab8f8d3d83/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/064cb570650fc942db6da7ab8f8d3d83/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7020a573bce13d1d3fd95bd72bda3c2e/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7020a573bce13d1d3fd95bd72bda3c2e/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b9793c07a17150ca0996650fb78a7569/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b9793c07a17150ca0996650fb78a7569/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/fb3b02482951e8196ef9952a51bff98e/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -390,8 +493,16 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/akshaybhasme/.grad
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e02207f4e54af1ece2c1a1758e149a33/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4b1b1ff84292ec9fee6ee2346035bdd5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4b1b1ff84292ec9fee6ee2346035bdd5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/77658feeab27e3f21eb547e136c33a54/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/77658feeab27e3f21eb547e136c33a54/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2a50f70092b2894b499bbdd360899a56/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2a50f70092b2894b499bbdd360899a56/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f8a8324ec670713a57586d74e778441c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f8a8324ec670713a57586d74e778441c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e842029c605b909cc0d7fd5c812d201d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e842029c605b909cc0d7fd5c812d201d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4310f1161e0617ab565e9a3b8dcd44cf/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4310f1161e0617ab565e9a3b8dcd44cf/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/akshaybhasme/.gradle/caches/transforms-3/4c66bace6f1e475a7995e25d7888e21f/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
@@ -430,8 +541,16 @@ MERGED from [androidx.activity:activity:1.8.0] /Users/akshaybhasme/.gradle/cache
 MERGED from [androidx.activity:activity:1.8.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4d6267a6de7082a4d035d81ae8fec883/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/akshaybhasme/.gradle/caches/transforms-3/60e1268933cc5d3982eaf17e9b76394a/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/akshaybhasme/.gradle/caches/transforms-3/60e1268933cc5d3982eaf17e9b76394a/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-bolts:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/c98fbd7fe90c705539f4d55aa3673706/transformed/facebook-bolts-17.0.2/AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.android:facebook-bolts:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/c98fbd7fe90c705539f4d55aa3673706/transformed/facebook-bolts-17.0.2/AndroidManifest.xml:12:5-14:41
 MERGED from [androidx.core:core-ktx:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/028a7bbdffa0c9c61ced1c05eec9a6fe/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/028a7bbdffa0c9c61ced1c05eec9a6fe/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/6447b239db644988bf1b7c8e034cda63/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/6447b239db644988bf1b7c8e034cda63/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/9429621043db130b8fd913453c3b3840/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/9429621043db130b8fd913453c3b3840/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.shimmer:shimmer:0.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5998818505830346f4498b53c88f9410/transformed/shimmer-0.5.0/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.shimmer:shimmer:0.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5998818505830346f4498b53c88f9410/transformed/shimmer-0.5.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/cb7d2bc6beed0ff9509b00e5974c0b0a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -474,12 +593,38 @@ MERGED from [com.intuit.sdp:sdp-android:1.1.0] /Users/akshaybhasme/.gradle/cache
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/bfe9f4a4bcd80501b57d5a51dc7c7cd9/transformed/sdp-android-1.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5859dbc546ed22d8db830ba86bce3356/transformed/installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5859dbc546ed22d8db830ba86bce3356/transformed/installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
 		INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/akshaybhasme/AndroidStudioProjects/AkshayShopAPP/app/src/main/AndroidManifest.xml
+queries
+ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:17:5-19:15
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:12:5-38:15
+MERGED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:12:5-38:15
+package#com.facebook.katana
+ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:18:9-55
+	android:name
+		ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:18:18-52
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:26:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:26:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:27:9-41:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:30:13-31
+	android:exported
+		ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:28:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:31:13-40:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.example.akshayshopapp+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/85cedb731e33d48286e9cfb54b80ca2d/transformed/facebook-common-17.0.2/AndroidManifest.xml:31:13-40:29
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents
@@ -494,26 +639,6 @@ ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradl
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
 ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
-data
-ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
-	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
 activity#com.google.firebase.auth.internal.RecaptchaActivity
 ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
 	android:excludeFromRecents
@@ -548,6 +673,50 @@ ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradl
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8c37d19f2f9dc37489b07543e5dda88a/transformed/firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+intent#action:name:android.intent.action.VIEW+data:mimeType:*/*+data:scheme:*
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:13:9-19:18
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:pay+data:mimeType:*/*+data:scheme:upi
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:20:9-29:18
+intent#action:name:android.intent.action.MAIN
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:30:9-32:18
+intent#action:name:android.intent.action.SEND+data:mimeType:*/*
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:33:9-37:18
+action#android.intent.action.SEND
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:34:13-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:34:21-62
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:41:9-48:20
+	android:exported
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:43:13-36
+	tools:ignore
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:42:13-57
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:45:13-47:29
+action#rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:46:17-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:46:25-62
+activity#com.razorpay.CheckoutActivity
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:50:9-58:20
+	android:exported
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:53:13-36
+	android:configChanges
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:52:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:51:13-57
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:55:13-57:29
+meta-data#com.razorpay.plugin.googlepay_all
+ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:60:9-62:58
+	android:value
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:62:13-55
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.27] /Users/akshaybhasme/.gradle/caches/transforms-3/67a0cd82669c9d1bc28d5e921fa766d4/transformed/checkout-1.6.27/AndroidManifest.xml:61:13-61
 service#androidx.credentials.playservices.CredentialProviderMetadataHolder
 ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/akshaybhasme/.gradle/caches/transforms-3/67f4637fedc8ae6d234beb587fa7a1a9/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
 	android:enabled
@@ -626,6 +795,18 @@ ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gra
 		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/46160c7ccfef1cfdc0c1d4a237af48d2/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/2bd93467313455b8bda1d6bb9ba81642/transformed/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/efbd0cf23b03ce0cf44c7e581a3466b1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
 	android:exported
@@ -656,6 +837,42 @@ ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/tra
 		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/akshaybhasme/.gradle/caches/transforms-3/873de9f979fb9a4c41eff98ca8e5b33e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:16:22-76
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:31:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:30:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:34:9-40:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:35:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:37:13-39:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:38:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:38:25-92
+receiver#com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:41:9-47:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:42:13-118
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:44:13-46:29
+action#com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:45:17-103
+	android:name
+		ADDED from [com.facebook.android:facebook-core:17.0.2] /Users/akshaybhasme/.gradle/caches/transforms-3/fea14d23088cffabfb9962f1a964740e/transformed/facebook-core-17.0.2/AndroidManifest.xml:45:25-100
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.15.0] /Users/akshaybhasme/.gradle/caches/transforms-3/e71cbb70f44a1edf32747d541e4c3cf5/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -688,6 +905,16 @@ ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/akshayb
 		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c692e296bc87f63b81b63772df8e1328/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c692e296bc87f63b81b63772df8e1328/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/akshaybhasme/.gradle/caches/transforms-3/f5a8fea216447a3524d77f1819c215ae/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/akshaybhasme/.gradle/caches/transforms-3/14befb0da107cfb228afd6e9df03b891/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
 	android:value
@@ -740,3 +967,7 @@ ADDED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.grad
 		ADDED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
 	android:name
 		ADDED from [com.google.android.play:core-common:2.0.3] /Users/akshaybhasme/.gradle/caches/transforms-3/ab6bce0379e92dc848003bfb676226e6/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5859dbc546ed22d8db830ba86bce3356/transformed/installreferrer-1.0/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/akshaybhasme/.gradle/caches/transforms-3/5859dbc546ed22d8db830ba86bce3356/transformed/installreferrer-1.0/AndroidManifest.xml:9:22-107

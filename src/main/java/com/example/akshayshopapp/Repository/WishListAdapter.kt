@@ -11,13 +11,14 @@ import com.example.akshayshopapp.databinding.WishlistViewBinding
 
 class WishListAdapter(
     private var wishList: MutableList<Product>,
+    private val removeFromWishList: (Product) -> Unit
 ) : RecyclerView.Adapter<WishListAdapter.WishListViewHolder>() {
 
 
     class WishListViewHolder(private val binding: WishlistViewBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(product: Product, context: Context) {
+        fun bind(product: Product, context: Context,removeFromWishList: (Product) -> Unit) {
             binding.title.text = product.title
             binding.price.text = "$${product.price}"
 
@@ -27,6 +28,9 @@ class WishListAdapter(
                 .into(binding.image)
 
 
+            binding.removeFromWishList.setOnClickListener {
+                removeFromWishList(product)
+            }
         }
     }
 
@@ -36,20 +40,32 @@ class WishListAdapter(
         return WishListViewHolder(binding)
     }
 
+
+    override fun onBindViewHolder(holder: WishListViewHolder, position: Int) {
+
+        // reverseWishList mean when add new item to position to show first
+
+        val product= wishList[wishList.size - 1 - position]
+        holder.bind(product, holder.itemView.context,removeFromWishList)
+
+
+//        holder.bind(wishList[position],
+//            holder.itemView.context)
+
+
+    }
+
+
     override fun getItemCount(): Int {
         return wishList.size
     }
 
-    override fun onBindViewHolder(holder: WishListViewHolder, position: Int) {
-        holder.bind(wishList[position], holder.itemView.context)
-
-
-    }
-
     // Update the wishlist with new data
-    fun updateWishList(newWishList: List<Product>) {
+    fun updateWishList(newWishList: MutableList<Product>) {
         wishList.clear()
         wishList.addAll(newWishList)
         notifyDataSetChanged()
     }
+
+
 }
