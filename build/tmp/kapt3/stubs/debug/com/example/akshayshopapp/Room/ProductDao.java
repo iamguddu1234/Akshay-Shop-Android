@@ -20,6 +20,11 @@ public abstract interface ProductDao {
     @org.jetbrains.annotations.NotNull()
     public abstract androidx.lifecycle.LiveData<java.util.List<com.example.akshayshopapp.dataClass.Product>> getAllProducts();
     
+    @androidx.room.Query(value = "DELETE FROM cart_table")
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object clearCart(@org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> $completion);
+    
     @androidx.room.Query(value = "SELECT * FROM cart_table")
     @org.jetbrains.annotations.NotNull()
     public abstract androidx.lifecycle.LiveData<java.util.List<com.example.akshayshopapp.dataClass.Product>> getWishListProducts();
@@ -28,10 +33,5 @@ public abstract interface ProductDao {
     @org.jetbrains.annotations.Nullable()
     public abstract java.lang.Object insertWishlistProduct(@org.jetbrains.annotations.NotNull()
     com.example.akshayshopapp.dataClass.Product product, @org.jetbrains.annotations.NotNull()
-    kotlin.coroutines.Continuation<? super kotlin.Unit> $completion);
-    
-    @androidx.room.Query(value = "DELETE FROM cart_table")
-    @org.jetbrains.annotations.Nullable()
-    public abstract java.lang.Object clearCart(@org.jetbrains.annotations.NotNull()
     kotlin.coroutines.Continuation<? super kotlin.Unit> $completion);
 }

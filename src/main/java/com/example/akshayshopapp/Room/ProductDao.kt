@@ -21,13 +21,15 @@ interface ProductDao {
     @Query("SELECT * FROM cart_table")
     fun getAllProducts(): LiveData<List<Product>>
 
+    @Query("DELETE FROM cart_table")
+    suspend fun clearCart()
+
     @Query("SELECT * FROM cart_table")
     fun getWishListProducts(): LiveData<List<Product>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertWishlistProduct(product: Product)
 
-    @Query("DELETE FROM cart_table")
-    suspend fun clearCart()
+
 
 }

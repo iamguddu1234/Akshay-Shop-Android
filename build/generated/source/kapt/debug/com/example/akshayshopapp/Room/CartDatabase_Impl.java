@@ -136,7 +136,7 @@ public final class CartDatabase_Impl extends CartDatabase {
   @NonNull
   protected Map<Class<?>, List<Class<?>>> getRequiredTypeConverters() {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
-    _typeConvertersMap.put(ProductDao.class, ProductDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(ProductDao.class, ProductDao_CartDatabase_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
 
@@ -162,7 +162,7 @@ public final class CartDatabase_Impl extends CartDatabase {
     } else {
       synchronized(this) {
         if(_productDao == null) {
-          _productDao = new ProductDao_Impl(this);
+          _productDao = new ProductDao_CartDatabase_Impl(this);
         }
         return _productDao;
       }

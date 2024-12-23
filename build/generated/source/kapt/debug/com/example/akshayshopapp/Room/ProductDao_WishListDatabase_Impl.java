@@ -28,7 +28,7 @@ import kotlin.Unit;
 import kotlin.coroutines.Continuation;
 
 @SuppressWarnings({"unchecked", "deprecation"})
-public final class ProductDao_Impl implements ProductDao {
+public final class ProductDao_WishListDatabase_Impl implements ProductDao {
   private final RoomDatabase __db;
 
   private final EntityInsertionAdapter<Product> __insertionAdapterOfProduct;
@@ -37,7 +37,7 @@ public final class ProductDao_Impl implements ProductDao {
 
   private final SharedSQLiteStatement __preparedStmtOfClearCart;
 
-  public ProductDao_Impl(@NonNull final RoomDatabase __db) {
+  public ProductDao_WishListDatabase_Impl(@NonNull final RoomDatabase __db) {
     this.__db = __db;
     this.__insertionAdapterOfProduct = new EntityInsertionAdapter<Product>(__db) {
       @Override

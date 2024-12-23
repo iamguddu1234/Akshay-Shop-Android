@@ -14,7 +14,7 @@ class WishlistViewModel(application: Application) : AndroidViewModel(application
     val allWishListProduct: LiveData<List<Product>>
 
     init {
-        val productDao = CartDatabase.getDatabase(application).productDao()
+        val productDao = WishListDatabase.getWishListDatabase(application).productDao()
         repository = WishlistRepository(productDao)
         allWishListProduct = repository.allWishlistProduct
     }
