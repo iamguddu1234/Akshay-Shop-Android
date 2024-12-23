@@ -119,6 +119,25 @@ public final class ProductDao_Impl implements ProductDao {
   }
 
   @Override
+  public Object insertWishlistProduct(final Product product,
+      final Continuation<? super Unit> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      @NonNull
+      public Unit call() throws Exception {
+        __db.beginTransaction();
+        try {
+          __insertionAdapterOfProduct.insert(product);
+          __db.setTransactionSuccessful();
+          return Unit.INSTANCE;
+        } finally {
+          __db.endTransaction();
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
   public Object delete(final Product product, final Continuation<? super Unit> $completion) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
@@ -161,6 +180,73 @@ public final class ProductDao_Impl implements ProductDao {
 
   @Override
   public LiveData<List<Product>> getAllProducts() {
+    final String _sql = "SELECT * FROM cart_table";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
+    return __db.getInvalidationTracker().createLiveData(new String[] {"cart_table"}, false, new Callable<List<Product>>() {
+      @Override
+      @Nullable
+      public List<Product> call() throws Exception {
+        final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+        try {
+          final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+          final int _cursorIndexOfTitle = CursorUtil.getColumnIndexOrThrow(_cursor, "title");
+          final int _cursorIndexOfPrice = CursorUtil.getColumnIndexOrThrow(_cursor, "price");
+          final int _cursorIndexOfCategory = CursorUtil.getColumnIndexOrThrow(_cursor, "category");
+          final int _cursorIndexOfDescription = CursorUtil.getColumnIndexOrThrow(_cursor, "description");
+          final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
+          final List<Product> _result = new ArrayList<Product>(_cursor.getCount());
+          while (_cursor.moveToNext()) {
+            final Product _item;
+            final int _tmpId;
+            _tmpId = _cursor.getInt(_cursorIndexOfId);
+            final String _tmpTitle;
+            if (_cursor.isNull(_cursorIndexOfTitle)) {
+              _tmpTitle = null;
+            } else {
+              _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            }
+            final String _tmpPrice;
+            if (_cursor.isNull(_cursorIndexOfPrice)) {
+              _tmpPrice = null;
+            } else {
+              _tmpPrice = _cursor.getString(_cursorIndexOfPrice);
+            }
+            final String _tmpCategory;
+            if (_cursor.isNull(_cursorIndexOfCategory)) {
+              _tmpCategory = null;
+            } else {
+              _tmpCategory = _cursor.getString(_cursorIndexOfCategory);
+            }
+            final String _tmpDescription;
+            if (_cursor.isNull(_cursorIndexOfDescription)) {
+              _tmpDescription = null;
+            } else {
+              _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            }
+            final String _tmpImage;
+            if (_cursor.isNull(_cursorIndexOfImage)) {
+              _tmpImage = null;
+            } else {
+              _tmpImage = _cursor.getString(_cursorIndexOfImage);
+            }
+            _item = new Product(_tmpId,_tmpTitle,_tmpPrice,_tmpCategory,_tmpDescription,_tmpImage);
+            _result.add(_item);
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+        }
+      }
+
+      @Override
+      protected void finalize() {
+        _statement.release();
+      }
+    });
+  }
+
+  @Override
+  public LiveData<List<Product>> getWishListProducts() {
     final String _sql = "SELECT * FROM cart_table";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     return __db.getInvalidationTracker().createLiveData(new String[] {"cart_table"}, false, new Callable<List<Product>>() {

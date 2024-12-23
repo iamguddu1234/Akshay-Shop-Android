@@ -83,16 +83,15 @@ class MainActivity : AppCompatActivity() {
 
         binding.rvProduct.layoutManager = GridLayoutManager(this, 2)
         productListAdapter = ProductListAdapter(listOf(), onFavorite = { favProduct ->
-//            val intent = Intent(this, WishLIstScreen::class.java).apply {
-//                putExtra("id", favProduct.id)
-//                putExtra("image", favProduct.image)
-//                putExtra("title", favProduct.title)
-//                putExtra("price", favProduct.price)
-//                putExtra("category", favProduct.category)
-//                putExtra("description", favProduct.description)
-            addProductToWishlist(favProduct)
-//            }
-//            startActivity(intent)
+            val intent = Intent(this, WishLIstScreen::class.java).apply {
+                putExtra("id", favProduct.id)
+                putExtra("image", favProduct.image)
+                putExtra("title", favProduct.title)
+                putExtra("price", favProduct.price)
+                putExtra("category", favProduct.category)
+                putExtra("description", favProduct.description)
+            }
+            startActivity(intent)
         }, onItemCLicked = { product ->
             val intent = Intent(this, ProductDetailsScreen::class.java).apply {
                 putExtra("id", product.id)
@@ -155,7 +154,7 @@ class MainActivity : AppCompatActivity() {
 
 
         // Load the wishlist from SharedPreferences
-        wishList.addAll(WishlistUtil.getWishlist(this))
+//        wishList.addAll(WishlistUtil.getWishlist(this))
 
 
         // Setup for the wishlist screen
@@ -173,23 +172,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    // Function to add product to the wishlist
-    private fun addProductToWishlist(product: Product) {
-        // Add the product to wishlist if not already added
-        if (!wishList.contains(product)) {
-            wishList.add(product)
 
-            // Save the updated wishlist to SharedPreferences
-            WishlistUtil.saveWishlist(this, wishList)
-
-
-            // Notify the user
-            Toast.makeText(this, "${product.title} added to wishlist!", Toast.LENGTH_SHORT).show()
-        } else {
-            Toast.makeText(this, "${product.title} is already in the wishlist!", Toast.LENGTH_SHORT)
-                .show()
-        }
-    }
 
     @SuppressLint("MissingSuperCall")
     override fun onBackPressed() {

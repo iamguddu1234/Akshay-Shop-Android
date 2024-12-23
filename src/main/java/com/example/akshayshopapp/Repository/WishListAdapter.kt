@@ -6,19 +6,20 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.akshayshopapp.Room.WishlistViewModel
 import com.example.akshayshopapp.dataClass.Product
 import com.example.akshayshopapp.databinding.WishlistViewBinding
 
 class WishListAdapter(
     private var wishList: MutableList<Product>,
-    private val removeFromWishList: (Product) -> Unit
+    private val wishlistViewModel: WishlistViewModel
 ) : RecyclerView.Adapter<WishListAdapter.WishListViewHolder>() {
 
 
-    class WishListViewHolder(private val binding: WishlistViewBinding) :
+    class WishListViewHolder(val binding: WishlistViewBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(product: Product, context: Context,removeFromWishList: (Product) -> Unit) {
+        fun bind(product: Product) {
             binding.title.text = product.title
             binding.price.text = "$${product.price}"
 
@@ -28,9 +29,6 @@ class WishListAdapter(
                 .into(binding.image)
 
 
-            binding.removeFromWishList.setOnClickListener {
-                removeFromWishList(product)
-            }
         }
     }
 
@@ -43,14 +41,25 @@ class WishListAdapter(
 
     override fun onBindViewHolder(holder: WishListViewHolder, position: Int) {
 
-        // reverseWishList mean when add new item to position to show first
+//        holder.bind(wishList[position])
+//
+//        holder.binding.removeFromWishList.setOnClickListener {
+//
+//            wishlistViewModel.deleteWishlist(wishList[position])
+//
+//            removeWishListItem(position)
+//        }
 
-        val product= wishList[wishList.size - 1 - position]
-        holder.bind(product, holder.itemView.context,removeFromWishList)
+
+        val wishlistProduct = wishList[position]
+        holder.bind(wishlistProduct)
+
+        holder.binding.removeFromWishList.setOnClickListener {
+            wishlistViewModel.deleteWishlist(wishlistProduct)
+            removeWishListItem(position)
+        }
 
 
-//        holder.bind(wishList[position],
-//            holder.itemView.context)
 
 
     }
@@ -60,10 +69,16 @@ class WishListAdapter(
         return wishList.size
     }
 
-    // Update the wishlist with new data
-    fun updateWishList(newWishList: MutableList<Product>) {
+
+
+    private fun removeWishListItem(position: Int){
+        wishList.removeAt(position)
+        notifyItemRemoved(position)
+    }
+
+    fun setWishListProduct(products: List<Product>){
         wishList.clear()
-        wishList.addAll(newWishList)
+        wishList.addAll(products.reversed())
         notifyDataSetChanged()
     }
 
